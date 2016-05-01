@@ -3,7 +3,7 @@ title: 'Example: `srcset` plus imgix'
 image:
   - src: /images/example-1.jpg
     alt: 'Leaves and a blue sky.'
-    quality: 60
+    quality: 40
   - src: /images/example-2.jpg
     alt: 'Fall leaves on the ground at sunset, with a dog walking in the background.'
     quality: 60
