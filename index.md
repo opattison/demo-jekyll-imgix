@@ -4,9 +4,13 @@ layout: default
 permalink: /
 ---
 
-<ul>
-{% assign examples = site.examples %}
-{% for example in examples %}
-  <li><a href="{{ example.url }}">{{ example.title }}</a></li>
-{% endfor %}
-</ul>
+<div class="index">
+
+  <ol>
+  {% assign examples = site.examples %}
+  {% for example in examples %}
+    <li><a href="{{ example.url }}">{{ example.title | markdownify | remove: '<p>' | remove: '</p>' }}</a></li>
+  {% endfor %}
+  </ol>
+
+</div>
