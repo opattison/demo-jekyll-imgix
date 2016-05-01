@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ page.title }}</title>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <link rel="icon" type="image/png" href="/favicon.png" sizes="32x32">
+
+  <style>
+
+    body {
+      margin: 0 auto;
+      max-width: 1200px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    img {
+      display: block;
+      margin: 1em auto;
+      max-width: 100%;
+    }
+
+    @media (min-width: 30em) {
+      img {
+        max-width: 500px;
+      }
+    }
+
+    @media (min-width: 50em) {
+      img {
+        max-width: 750px;
+      }
+    }
+
+    @media (min-width: 70em) {
+      img {
+        max-width: 1000px;
+      }
+    }
+
+  </style>
+
+</head>
+<body>
+
+  <h1>{{ page.title | markdownify }}</h1>
+
+{{ content }}
+
+</body>
+</html>
