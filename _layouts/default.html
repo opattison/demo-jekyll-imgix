@@ -53,6 +53,13 @@
       text-align: center;
     }
 
+    .note {
+      font-size: 1.25em;
+      margin: 2em auto;
+      max-width: 30em;
+      padding: 1em;
+    }
+
     ol {
       margin: auto;
     }
@@ -100,6 +107,10 @@
   <h1>{{ page.title | markdownify }}</h1>
 
 {{ content }}
+
+{% if page.permalink != '/' %}
+<p class="note"><a href="/">back to index</a></p>
+{% endif %}
 
 </body>
 </html>

@@ -1,8 +1,12 @@
-# Responsive srcset images with imgix
+# Responsive `srcset` images with imgix
+
+## [Demo site](http://demo-jekyll-imgix.s3-website-us-east-1.amazonaws.com/)
 
 Made for [JekyllConf 2016](http://jekyllconf.com/)
 
-Video coming soon. This is a demo Jekyll site.
+## Video of presentation
+
+Video coming soon. This is a [demo Jekyll site](http://demo-jekyll-imgix.s3-website-us-east-1.amazonaws.com/).
 
 ## Useful links
 
