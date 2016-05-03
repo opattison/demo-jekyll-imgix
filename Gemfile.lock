@@ -3,6 +3,11 @@ GEM
   specs:
     addressable (2.4.0)
     colorator (0.1)
+    colored (1.2)
+    configure-s3-website (1.7.1)
+      deep_merge (= 1.0.0)
+    deep_merge (1.0.0)
+    dotenv (1.0.2)
     ffi (1.9.10)
     imgix (1.1.0)
       addressable
@@ -21,18 +26,25 @@ GEM
       sass (~> 3.4)
     jekyll-watch (1.4.0)
       listen (~> 3.0, < 3.1)
-    kramdown (1.10.0)
+    kramdown (1.11.1)
     liquid (3.0.6)
-    listen (3.0.6)
+    listen (3.0.7)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9.7)
     mercenary (0.3.6)
+    rake (11.1.2)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
     rouge (1.10.1)
+    s3_website (2.13.0)
+      colored (= 1.2)
+      configure-s3-website (= 1.7.1)
+      dotenv (~> 1.0)
+      thor (~> 0.18)
     safe_yaml (1.0.4)
     sass (3.4.22)
+    thor (0.19.1)
 
 PLATFORMS
   ruby
@@ -40,6 +52,8 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.1)
   jekyll-imgix
+  rake
+  s3_website
 
 BUNDLED WITH
    1.11.2
