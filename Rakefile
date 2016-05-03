@@ -6,7 +6,7 @@ task :serve do
   system "JEKYLL_ENV=production bundle exec jekyll serve"
 end
 
-
+# don’t try running this – it won’t work for you!
 desc "build and deploy scripts, images and site to production servers via s3_website"
 task :deploy do
   system "JEKYLL_ENV=production bundle exec jekyll build"
