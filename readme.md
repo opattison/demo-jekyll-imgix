@@ -2,13 +2,13 @@
 
 ## [Demo site](http://demo-jekyll-imgix.s3-website-us-east-1.amazonaws.com/)
 
-This is a demo Jekyll site made for a [JekyllConf 2016](http://jekyllconf.com/) lightning talk.
+This is a demo Jekyll site made for a [JekyllConf 2016](http://jekyllconf.com/) lightning talk, presented 2016-05-07.
 
-## Video of presentation
+## [Video of presentation](https://www.youtube.com/watch?v=BIf6oNpGl74)
 
-Video coming soon. Speaking notes are in this repo.
+[View on YouTube](https://www.youtube.com/watch?v=BIf6oNpGl74). Speaking notes are in this repo.
 
-## Further notes
+## [Further notes](https://olivermak.es/2016/05/jekyllconf-responsive-images/)
 
 I wrote about my responsive images process to accompany this repo [on my website](https://olivermak.es/2016/05/jekyllconf-responsive-images/).
 

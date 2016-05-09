@@ -55,10 +55,14 @@
 
     .note {
       font-size: 1.25em;
-      margin: 2em auto;
+      margin: 2em auto 0;
       max-width: 30em;
       padding: 1em;
       text-align: center;
+    }
+
+    .note + .note {
+      margin-top: 0;
     }
 
     ol {
@@ -113,6 +117,7 @@
 <p class="note"><a href="/">back to index</a></p>
 {% else %}
 <p class="note"><a href="https://github.com/opattison/demo-jekyll-imgix">view source</a></p>
+<p class="note"><a href="https://www.youtube.com/watch?v=BIf6oNpGl74">view video</a></p>
 {% endif %}
 
 </body>
